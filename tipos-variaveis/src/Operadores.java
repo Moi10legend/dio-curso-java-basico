@@ -1,16 +1,16 @@
 public class Operadores{
 
-    public static void main(String []args){
+    public static void main(String [] args){
 
-    //Operadores aula 3
-    //Unário
-    float troco = 2.5F;
+    //Operadores aula 4
+    //Ternário
 
-    System.out.print( --troco);
-    System.out.println(-troco);
+    int a = 1;
+    int b = 2;
 
-    boolean unarioFalso = (troco == 1.5) ? true : false;
-    System.out.println(!unarioFalso);
+    int resultado = ((b/a)>1) ? 2 : 1;
+    System.out.println(resultado);
+    
     
 }
 
